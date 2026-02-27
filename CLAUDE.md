@@ -1,20 +1,31 @@
 # Claude Audit Log
 
 **Audited:** 2026-02-26
-**Bucket:** [SALVAGE]
+**Bucket:** [AGENT-REPLACE]
+**Status:** In Transition
 
 ## What This Was
-Contract intelligence tool
+Contract analyzer API — backend for contract clause extraction
 
-## Job To Be Done
-Contract analysis/intelligence
+## Current State
+Function replaceable by agent — last pushed 2026-02-05
 
 ## Agent Replacement
-N/A
+**Agent Name:** PENDING
+**Lives On:** Maggie or Pete VPS (to be determined during build)
+**Orchestrator:** ORC `compliance` + `pdf` skills
+**Endpoint or Trigger:** PENDING
+**Supabase Table:** N/A
 
-## What To Extract
-Contract parsing logic, clause extraction patterns
+## Handoff Notes
+Core function: REST API for parsing contracts and extracting key clauses. Recommended replacement: ORC `compliance` + `pdf` skills. Verify at https://orc.gp3.app/skills before building anything new.
+
+## Dependencies
+- None identified — check package.json for specifics
+
+## Last Known Working State
+2026-02-05
 
 ## Claude's Notes
-- No README found — classified by name only.
-- Salvage value identified: Contract parsing logic, clause extraction patterns
+- No README existed. Classification based on repo name.
+- Agent replacement not yet built. This is a backlog item for the GP3 platform team.
